@@ -2,6 +2,11 @@ import Store from "./services/Store.js";
 import { loadData } from "./services/Menu.js";
 import Router from "./services/Router.js";
 
+// importing components
+import { MenuPage } from "./components/MenuPage.js";
+import { OrderPage } from "./components/OrderPage.js";
+import { DetailsPage } from "./components/DetailsPage.js";
+
 // this allows us to what we want to use as global
 window.app = {};
 app.store = Store;
